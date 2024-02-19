@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Assuming your OpenAI API key is set as an environment variable
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.getenv('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')
 
 
 def fetch_course_details(query):
