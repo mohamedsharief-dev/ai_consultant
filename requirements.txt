@@ -1,3 +1,4 @@
 python-dotenv
 openai
-gunicorn==20.1.0
+gunicorn
+flask 
