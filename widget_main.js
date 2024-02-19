@@ -18,7 +18,7 @@
     // Function to call the Flask backend API
     async function callBackendAPI(userQuery) {
         try {
-            const response = await fetch('', { // Ensure the URL matches your Flask app's route
+            const response = await fetch('https://consultantai-88f99c84ec98.herokuapp.com/message', { // Ensure the URL matches your Flask app's route
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
