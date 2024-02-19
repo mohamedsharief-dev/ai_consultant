@@ -18,7 +18,7 @@
     // Function to call the Flask backend API
     async function callBackendAPI(userQuery) {
         try {
-            const response = await fetch('http://127.0.0.1:5000/message', { // Ensure the URL matches your Flask app's route
+            const response = await fetch('', { // Ensure the URL matches your Flask app's route
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
